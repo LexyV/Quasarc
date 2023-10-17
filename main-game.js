@@ -12,7 +12,7 @@ class Game {
         this.timer = 0;
         this.counter = 0;
         this.SPEED = 10000 // ========================= TIME INTERVAL FOR WAVE FREQUENCY & WAVE SPEED INCREASAL 
-        this.waveSpeed = 2.2 // ========================= STARTING SPEED
+        this.waveSpeed = 2.5 // ========================= STARTING SPEED
     }
 
     controlHandler (control) {
@@ -67,7 +67,7 @@ class Game {
         }
 
         if (this.timer < timestamp - this.SPEED) {
-            this.waveSpeed += 0.25
+            this.waveSpeed += 0.15
             this.waveFrequency -= 1
             this.timer = timestamp
         }
@@ -80,7 +80,7 @@ class Game {
     }
 
     clear() {
-        this.ctx.clearRect(0, 0, 1260, 570)
+        this.ctx.clearRect(0, 0, 1360, 700)
 
     }
 
@@ -106,7 +106,7 @@ class Game {
                     this.waveCounter.shield--;
                     if (this.waveCounter.shield === 0) {
                     window.location.href = "./game-over.html"
-                    window.confirm(`You survived ${this.waveCounter.score} waves`)
+                    window.confirm(`You BUZZED through ${this.waveCounter.score} waves`)
                 
                     }
                 }

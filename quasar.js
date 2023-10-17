@@ -9,7 +9,7 @@ class Hole {
     drawCentre () {
         
         this.game.ctx.save();
-        this.game.ctx.translate(630, 235);
+        this.game.ctx.translate(630, 270);
         this.game.ctx.rotate(this.rotator);
         this.game.ctx.drawImage(this.photo, -60, -60, 120, 120)
         this.game.ctx.restore();
