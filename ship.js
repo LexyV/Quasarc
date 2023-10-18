@@ -13,7 +13,7 @@ class Ship {
     drawShip() {
         const ctx = this.game.ctx;
         ctx.save();
-        ctx.translate(630, 270);
+        ctx.translate(685, 350);
         ctx.rotate(this.angle);
         ctx.drawImage(this.image, 20, this.radius, 33, 42)
         ctx.restore();

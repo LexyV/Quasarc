@@ -9,29 +9,34 @@ body {
     display: flex;
     justify-content: center;
     background-image: url('images/body-background.gif');
-    background-size: contain; 
-    color: #f0ba13;
+    background-size: 50px; 
+    color: #000000;
     font-family: 'Rajdhani', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-shadow:7px 7px 10px red;
+    text-shadow:7px 7px 10px #f0ba13;
 }
 
 canvas {
     background-image: url('images/hive-background.png');
+    background-size: 1380px;
     border: 10px double black;
 }
 
 
 h4 {
-    margin: 1px;
-    font-weight: 100;
-    font-size: 20px;
+    margin: 10px;
+    font-weight: 200;
+    font-size: 30px;
     text-shadow:7px 7px 7px #f0ba13;
 }
 
 h1 {
     margin: 0;
-    font-weight: 100;
-    text-shadow:7px 7px 10px red;
+    font-weight: 200;
+    text-shadow:7px 7px 10px #f0ba13;
+}
+.header { 
+
+    
 }
 
 .playbutton:hover {

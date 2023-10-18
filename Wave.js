@@ -15,7 +15,7 @@ class Wave {
         this.game.ctx.lineWidth = 15;
         this.game.ctx.lineCap = 'round';
         this.game.ctx.beginPath()
-        this.game.ctx.arc(630, 270, this.waveRadius, this.endRadian, this.startRadian)
+        this.game.ctx.arc(685, 350, this.waveRadius, this.endRadian, this.startRadian)
         this.game.ctx.stroke()
         this.game.ctx.closePath()
         

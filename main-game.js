@@ -80,7 +80,7 @@ class Game {
     }
 
     clear() {
-        this.ctx.clearRect(0, 0, 1360, 700)
+        this.ctx.clearRect(0, 0, 1390, 800)
 
     }
 
